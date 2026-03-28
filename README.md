@@ -30,4 +30,4 @@ week3_project/
 - File handling using `with open()`
 
 ## Author
-Systems Engineering Student
+Natalia Romerin Rincon 
