@@ -1,39 +1,33 @@
-# 🧠 Team Daily Status System (Persistence Project)
+# 🧠 Team Daily Status System
 
-## 📌 Description
-This project is a Python-based system that allows users to manage daily blockers using file persistence.  
-The system stores data in a text file (`database.txt`), ensuring that information remains available even after the program is closed.
+## Description
+This Python program allows users to store and manage daily blockers using a text file (`database.txt`).  
+It demonstrates data persistence, meaning the information remains saved even after the program is closed.
 
----
+## Features
+- Add a blocker (append mode `a`)
+- Fetch all blockers (read mode `r`)
+- Overwrite file with confirmation (write mode `w`)
+- File existence validation
 
-## 🎯 Objective
-To demonstrate the use of:
-- File handling in Python (`r`, `w`, `a` modes)
-- Data persistence
-- CRUD-like operations
-- Error handling
-- Professional communication practices in English
+## Project Structure
+week3_project/
+- database.txt
+- persistence_log.py
+- README.md
 
----
+## How to Run
+1. Open terminal  
+2. Navigate to the folder:
+   cd week3_project  
+3. Run the program:
+   python persistence_log.py  
 
-## ⚙️ Features
+## Key Concepts
+- Persistence: data is saved permanently  
+- Fetch: retrieve stored data  
+- Overwrite: replace file content with warning  
+- File handling using `with open()`
 
-### 1. Add Daily Blocker
-- Prompts the user to enter a blocker.
-- Saves the information using **append mode (`a`)**.
-
-### 2. Fetch All Blockers
-- Reads and displays all saved blockers.
-- Uses a loop to show each entry clearly.
-
-### 3. Overwrite File (Clear Data)
-- Warns the user before deleting all data.
-- Uses **write mode (`w`)** to reset the file.
-
-### 4. Error Handling
-- Checks if the file exists before reading.
-- Displays user-friendly messages if no data is found.
-
----
-
-## 🗂️ Project Structure
+## Author
+Systems Engineering Student
